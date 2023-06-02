@@ -2,6 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+.social-link {
+  @apply hover:text-[#fff] p-2;
+}
+
+.tech-link {
+  @apply underline;
+}
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;

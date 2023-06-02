@@ -5,8 +5,9 @@ import { Analytics } from "@vercel/analytics/react";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Personal Web Site",
-  description: "Personal Web Site by Berkan Kılıç",
+  title: "Berkan Kılıç - Jr. Fullstack Web Developer",
+  description:
+    "Dijital projelerinizi hayata geçirmek istiyorsanız hemen şimdi mail gönderebilirsiniz. Benimle çalışmak mı istiyorsunuz? hello@berkankilic.dev",
 };
 
 export default function RootLayout({

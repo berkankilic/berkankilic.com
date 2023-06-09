@@ -1,18 +1,37 @@
 /** @type {import('tailwindcss').Config} */
+
+const { colors } = require("tailwindcss/colors");
+const { fontFamily } = require("tailwindcss/defaultTheme");
+
 module.exports = {
   content: [
-    './pages/**/*.{js,ts,jsx,tsx,mdx}',
-    './components/**/*.{js,ts,jsx,tsx,mdx}',
-    './app/**/*.{js,ts,jsx,tsx,mdx}',
+    "./pages/**/*.{js,ts,jsx,tsx,mdx}",
+    "./components/**/*.{js,ts,jsx,tsx,mdx}",
+    "./app/**/*.{js,ts,jsx,tsx,mdx}",
+    "./sections/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      fontFamily: {
+        sans: ["var(--font-inter)", ...fontFamily.sans],
+      },
+      colors: {
+        ...colors,
+        primary: {
+          bg: "#080808",
+          text: "#efeff1",
+          color: "#5eb0fd",
+        },
+        secondary: {
+          bg: "#111",
+          text: "#adadb8",
+        },
+        tertiary: {
+          bg: "#222",
+          text: "#999ca3",
+        },
       },
     },
   },
   plugins: [],
-}
+};

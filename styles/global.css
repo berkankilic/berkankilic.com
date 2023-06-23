@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .html {
+    @apply bg-primary-bg text-primary-text;
+  }
+
+  .header {
+    @apply relative flex flex-row px-4 lg:px-7 py-8 lg:py-5 justify-between items-center max-w-[1920px] mx-auto float-none z-50;
+  }
+
+  .footer {
+    @apply flex flex-row justify-center;
+  }
+  .social-icon {
+    @apply flex items-center justify-center bg-[#222] min-w-[38px] min-h-[38px] rounded-[99px] hover:text-[#fff] transition-all duration-300;
+  }
+
+  .menu-item {
+    @apply px-[20px] py-[10px] min-w-[140px] text-[15px] hover:text-primary-color flex flex-row items-center justify-center;
+  }
+
+  .button:focus-visible {
+    border: none !important;
+  }
+
+  .divider {
+    @apply bg-white/5 h-[1px] w-full my-[120px] md:my-[180px];
+  }
+}

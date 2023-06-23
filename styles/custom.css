@@ -49,22 +49,22 @@
 /* Mui Menu */
 
 .MuiMenu-root {
-  background-color: rgb(0 0 0 / 65%);
-  color: #fff;
-  padding: 0px;
+  background-color: rgb(0 0 0 / 65%) !important;
+  color: #fff !important;
+  padding: 0px !important;
 }
 .MuiMenu-paper {
   min-width: 200px;
-  padding: 24px 0px 24px 0px;
-  background-color: #111;
-  border-radius: 16px;
+  padding: 24px 0px 24px 0px !important;
+  background-color: #111 !important;
+  border-radius: 16px !important;
 }
 
 .MuiMenu-list {
-  padding: 0px;
-  color: #fff;
-  background-color: #111;
-  border-radius: 16px;
+  padding: 0px !important;
+  color: #fff !important;
+  background-color: #111 !important;
+  border-radius: 16px !important;
 }
 
 .MuiMenu-list:hover {
@@ -72,7 +72,7 @@
 }
 
 .MuiMenuItem-root {
-  padding: 0px;
+  padding: 0px !important;
 }
 
 .MuiMenuItem-root:hover {

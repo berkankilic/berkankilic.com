@@ -1,0 +1,159 @@
+[
+  {
+    "id": 1,
+    "title": "JavaScript",
+    "url": "#",
+    "icon": "javascript",
+    "target": "_blank"
+  },
+  {
+    "id": 2,
+    "title": "TypeScript",
+    "url": "#",
+    "icon": "typescript",
+    "target": "_blank"
+  },
+  {
+    "id": 3,
+    "title": "React",
+    "url": "#",
+    "icon": "react",
+    "target": "_blank"
+  },
+  {
+    "id": 4,
+    "title": "NextJS",
+    "url": "#",
+    "icon": "nextjs",
+    "target": "_blank"
+  },
+  {
+    "id": 5,
+    "title": "Prisma",
+    "url": "#",
+    "icon": "prisma",
+    "target": "_blank"
+  },
+  {
+    "id": 6,
+    "title": "Tailwind CSS",
+    "url": "#",
+    "icon": "tailwindcss",
+    "target": "_blank"
+  },
+  {
+    "id": 7,
+    "title": "VS Code",
+    "url": "#",
+    "icon": "vscode",
+    "target": "_blank"
+  },
+  {
+    "id": 8,
+    "title": "NodeJS",
+    "url": "#",
+    "icon": "nodejs",
+    "target": "_blank"
+  },
+  {
+    "id": 9,
+    "title": "Express.js",
+    "url": "#",
+    "icon": "expressjs",
+    "target": "_blank"
+  },
+  {
+    "id": 10,
+    "title": "Vercel",
+    "url": "#",
+    "icon": "vercel",
+    "target": "_blank"
+  },
+  {
+    "id": 11,
+    "title": "Figma",
+    "url": "#",
+    "icon": "figma",
+    "target": "_blank"
+  },
+  {
+    "id": 12,
+    "title": "AdobeXD",
+    "url": "#",
+    "icon": "adobexd",
+    "target": "_blank"
+  },
+  {
+    "id": 13,
+    "title": "Adobe Photoshop",
+    "url": "#",
+    "icon": "adobeps",
+    "target": "_blank"
+  },
+
+  {
+    "id": 14,
+    "title": "Adobe Illustrator",
+    "url": "#",
+    "icon": "adobeai",
+    "target": "_blank"
+  },
+
+  {
+    "id": 15,
+    "title": "Github",
+    "url": "#",
+    "icon": "github",
+    "target": "_blank"
+  },
+
+  {
+    "id": 16,
+    "title": "Git",
+    "url": "#",
+    "icon": "git",
+    "target": "_blank"
+  },
+  {
+    "id": 17,
+    "title": "MongoDB",
+    "url": "#",
+    "icon": "mongodb",
+    "target": "_blank"
+  },
+  {
+    "id": 18,
+    "title": "Supabase",
+    "url": "#",
+    "icon": "supabase",
+    "target": "_blank"
+  },
+  {
+    "id": 19,
+    "title": "GraphQL",
+    "url": "#",
+    "icon": "graphql",
+    "target": "_blank"
+  },
+  {
+    "id": 20,
+    "title": "Postman",
+    "url": "#",
+    "icon": "postman",
+    "target": "_blank"
+  },
+  {
+    "id": 21,
+    "title": "HTML",
+    "url": "#",
+    "icon": "html",
+    "target": "_blank"
+  },
+  {
+    "id": 22,
+    "title": "CSS",
+    "url": "#",
+    "icon": "css",
+    "target": "_blank"
+  }
+]

@@ -39,7 +39,7 @@ export default function SkillSs() {
               key={skill.id}
               className="skill flex flex-col px-3 py-10 items-center justify-center bg-secondary-bg rounded-2xl duration-300 cursor-pointer"
             >
-              <div className="flex items-center justify-center h-[50px]">
+              <div className="flex items-center justify-center h-[50px] max-w-[50px]">
                 <SkillIcons icon={skill.icon} />
               </div>
               <button className="text-[13px] font-medium bg-white/5 rounded-full px-5 py-2 mt-4 transition-all duration-300">
@@ -58,7 +58,7 @@ export default function SkillSs() {
                 target={skill.target}
                 className="flex flex-col px-3 py-9 items-center justify-center bg-secondary-bg hover:bg-tertiary-bg rounded-2xl transition-all duration-300"
               >
-                <div className="flex items-center justify-center h-[50px]">
+                <div className="flex items-center justify-center h-[50px] max-w-[50px]">
                   <SkillIcons icon={skill.icon} />
                 </div>
               </Link>

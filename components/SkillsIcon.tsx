@@ -30,13 +30,13 @@ export default function SkillIcons(props: props) {
     return <JavaScript className="h-[34px]" />;
   }
   if (props.icon === "typescript") {
-    return <TypeScript className="h-[34px]" />;
+    return <TypeScript className="h-[34px] " />;
   }
   if (props.icon === "react") {
     return <React className="h-[42px]" />;
   }
   if (props.icon === "nextjs") {
-    return <NextJS className="h-[40px] " />;
+    return <NextJS className="h-[40px]" />;
   }
   if (props.icon === "supabase") {
     return <Supabase className="h-[32px] " />;
@@ -48,7 +48,7 @@ export default function SkillIcons(props: props) {
     return <VSCode className="h-[34px]" />;
   }
   if (props.icon === "nodejs") {
-    return <NodeJS className="h-[34px]" />;
+    return <NodeJS className="h-[34px] " />;
   }
   if (props.icon === "css") {
     return <CSS className="h-[30px]" />;

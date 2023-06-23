@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "image": "/assets/services/ux-ui.png",
+    "title": "UX & UI",
+    "description": "Designing interfaces that are intuitive, efficient and enjoyable to use.",
+    "width": 28,
+    "height": 28,
+    "seo_alt": "seo text"
+  },
+  {
+    "id": 2,
+    "image": "/assets/services/mobile-app.png",
+    "title": "Web & Mobile App",
+    "description": "Transforming ideas into exceptional web and mobile app experiences.",
+    "width": 32,
+    "height": 32,
+    "seo_alt": "seo text"
+  },
+  {
+    "id": 3,
+    "image": "/assets/services/design-creative.png",
+    "title": "Design & Creative",
+    "description": "Crafting visiually stunning designs that connect with your audience.",
+    "width": 32,
+    "height": 32,
+    "seo_alt": "seo text"
+  },
+  {
+    "id": 4,
+    "image": "/assets/services/development.png",
+    "title": "Development",
+    "description": "Bringing your vision to life with the latest technology and design trends.",
+    "width": 32,
+    "height": 32,
+    "seo_alt": "seo text"
+  }
+]

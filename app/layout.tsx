@@ -15,7 +15,7 @@ const inter = Inter({
 export const metadata = {
   title: "Berkan Kılıç - Jr. Fullstack Web Developer",
   description:
-    "Dijital projelerinizi hayata geçirmek istiyorsanız hemen şimdi mail gönderebilirsiniz. Benimle çalışmak mı istiyorsunuz? hello@berkankilic.dev",
+    "If you want to bring your digital projects to life, you can send an email right now. Do you want to work with me? hello@berkankilic.dev",
 };
 
 export default function RootLayout({
@@ -25,7 +25,7 @@ export default function RootLayout({
 }) {
   return (
     <>
-      <html lang="en">
+      <html lang="en" className="html">
         <body className={inter.className}>
           {children}
           <Analytics />

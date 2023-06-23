@@ -1,0 +1,87 @@
+/* width */
+::-webkit-scrollbar {
+  width: 17px;
+  margin-right: 300px;
+  padding-top: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #080808;
+  margin-right: 300px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  border: 6px solid #080808;
+  background: #303030;
+  width: 17px;
+  border-radius: 99px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #444;
+}
+
+/* Mui Tooltip */
+.MuiTooltip-arrow {
+  color: #444;
+}
+
+.MuiList-root-MuiMenu-list {
+  background: red;
+  background-color: red;
+  color: white;
+}
+
+.MuiTooltip-tooltip {
+  color: #fff;
+  background-color: #444;
+  border-radius: 99px;
+  padding: 6px 16px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+/* Mui Menu */
+
+.MuiMenu-root {
+  background-color: rgb(0 0 0 / 65%);
+  color: #fff;
+  padding: 0px;
+}
+.MuiMenu-paper {
+  min-width: 200px;
+  padding: 24px 0px 24px 0px;
+  background-color: #111;
+  border-radius: 16px;
+}
+
+.MuiMenu-list {
+  padding: 0px;
+  color: #fff;
+  background-color: #111;
+  border-radius: 16px;
+}
+
+.MuiMenu-list:hover {
+  background-color: transparent !important;
+}
+
+.MuiMenuItem-root {
+  padding: 0px;
+}
+
+.MuiMenuItem-root:hover {
+  background-color: none !important;
+  background: none !important;
+}
+
+/* Skill Section */
+
+.skill:hover button {
+  background: #333;
+}

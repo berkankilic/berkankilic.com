@@ -11,6 +11,14 @@ module.exports = {
     "./sections/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    screens: {
+      sm: "640px",
+      md: "768px",
+      lg: "1024px",
+      xl: "1280px",
+
+      "2xl": "1536px",
+    },
     extend: {
       fontFamily: {
         sans: ["var(--font-inter)", ...fontFamily.sans],
@@ -19,16 +27,16 @@ module.exports = {
         ...colors,
         primary: {
           bg: "#080808",
-          text: "#efeff1",
+          text: "#fff",
           color: "#5eb0fd",
         },
         secondary: {
           bg: "#111",
-          text: "#adadb8",
+          text: "#999",
         },
         tertiary: {
           bg: "#222",
-          text: "#999ca3",
+          text: "#666",
         },
       },
     },

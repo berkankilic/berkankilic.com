@@ -18,7 +18,7 @@ const MyServices: Services[] = Data;
 export default function Services() {
   return (
     <>
-      <p className="text-[28px] lg:text-[36px] max-w-[250px] md:max-w-full mx-auto text-center font-semibold text-transparent bg-clip-text bg-gradient-to-r from-white  to-tertiary-text to-60% mt-[100px] mb-[90px] md:mt-[160px] md:mb-[140px] transition-all duration-300 ">
+      <p className="text-[28px] lg:text-[36px] max-w-[250px] md:max-w-full mx-auto text-center font-semibold text-transparent bg-clip-text bg-gradient-to-r from-white  to-tertiary-text to-60% mt-[100px] mb-[90px] md:mt-[160px] md:mb-[140px] transition-all duration-300 leading-relaxed">
         Building digital products, brands<br></br>and expereince.
       </p>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-y-20 gap-x-10 gap max-w-[1440px] mx-auto text-center px-9 mt-14 transition-all duration-300">
